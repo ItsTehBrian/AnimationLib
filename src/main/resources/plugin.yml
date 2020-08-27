@@ -1,0 +1,13 @@
+name: AnimationLib
+version: 1.7.1
+main: me.megamichiel.animationlib.bukkit.AnimLibPlugin
+author: megamichiel
+load: STARTUP
+api-version: 1.15
+
+commands:
+  animationlib:
+    usage: /<command> reload
+    permission: animationlib.reload
+    description: Plugin command
+    aliases: animlib
